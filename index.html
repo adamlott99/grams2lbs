@@ -9,9 +9,11 @@
     <link rel="apple-touch-icon" href="icon.png">
 </head>
 <body>
+
 <label for="gramsInput">Grams: </label>
 <input type="text" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" id="gramsInput" name="gramsInput">
 <div id="poundsOuncesOutput"></div>
+
 <div style="display: flex; flex-direction: column; gap: 0.5em; margin-top: 3em;">
     <div style="display: flex; align-items: center; gap: 0.5em;">
         <label for="poundsInput">Pounds: </label>
@@ -23,6 +25,39 @@
     </div>
 </div>
 <div id="gramsOutput"></div>
+
+<div style="display: flex; flex-direction: column; gap: 0.5em; margin-top: 3em;">
+    <div style="display: flex; align-items: center; gap: 0.5em;">
+        <label for="oldGramsInput">Old grams: </label>
+        <input type="text" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" id="oldGramsInput" name="oldGramsInput">
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5em;">
+        <label for="newGramsInput">New grams: </label>
+        <input type="text" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" id="newGramsInput" name="newGramsInput">
+    </div>
+</div>
+<div id="gramsChangeOutput"></div>
+
+<div style="display: flex; flex-direction: column; gap: 0.5em; margin-top: 3em;">
+    <div style="display: flex; align-items: center; gap: 0.5em;">
+        <label for="oldPoundsInput">Old pounds: </label>
+        <input type="text" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" id="oldPoundsInput" name="oldPoundsInput">
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5em;">
+        <label for="oldOuncesInput">Old ounces: </label>
+        <input type="text" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" id="oldOuncesInput" name="oldOuncesInput">
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5em;">
+        <label for="newPoundsInput">New pounds: </label>
+        <input type="text" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" id="newPoundsInput" name="newPoundsInput">
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5em;">
+        <label for="newOuncesInput">New ounces: </label>
+        <input type="text" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" id="newOuncesInput" name="newOuncesInput">
+    </div>
+</div>
+<div id="poundsChangeOutput"></div>
+
 <script src="app.js" type="module" defer></script>
 </body>
 </html>
