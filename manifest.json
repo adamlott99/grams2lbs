@@ -1,0 +1,13 @@
+{
+    "name": "grams2lbs",
+    "short_name": "grams2lbs",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "icons": [
+        {
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+        }
+    ]
+  }
