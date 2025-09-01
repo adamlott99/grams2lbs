@@ -1,7 +1,7 @@
 {
     "name": "grams2lbs",
     "short_name": "grams2lbs",
-    "start_url": "/",
+    "start_url": "/grams2lbs/",
     "display": "standalone",
     "icons": [
         {
